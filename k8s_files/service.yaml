@@ -13,5 +13,6 @@ spec:
     targetPort: 3000
   selector:
     app: pandacloud-app
-  type: LoadBalancer
+  type: NodePort
+  # type: LoadBalance
 ...
